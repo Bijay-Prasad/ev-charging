@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'https://ev-charging-station-c828.onrender.com/',
+      '/api': 'https://ev-charging-station-c828.onrender.com',
     },
   },
 })
