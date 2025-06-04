@@ -3,6 +3,7 @@ import { login } from '../services/api';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { loginSuccess } from '../redux/slices/authSlice';
+import toast from 'react-hot-toast';
 
 export default function Login() {
   const [form, setForm] = useState({ email: '', password: '' });
@@ -25,10 +26,11 @@ export default function Login() {
           role: data.user.role
         })
       );
-
+      toast.success('Logged in successfully! Redirecting to Dashboard...');
       navigate('/chargers');
     } catch (err) {
-      alert('Login Failed', err.message);
+      console.error(err);
+      toast.error(err.response?.data?.message || 'Login failed');
     }
   };
 
