@@ -103,7 +103,7 @@ const ChargerFormModal = ({ charger, onClose }) => {
         <MapContainer
           center={[form.lat || 20.5937, form.lng || 78.9629]}
           zoom={5}
-          className="h-60 w-full rounded mb-4"
+          className="h-40 w-full rounded mb-4"
         >
           <TileLayer
             attribution="&copy; OpenStreetMap contributors"
