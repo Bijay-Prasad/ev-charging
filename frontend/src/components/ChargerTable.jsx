@@ -27,7 +27,6 @@ const ChargerTable = ({ chargers, onEdit, onDelete }) => {
           return { ...charger, address };
         })
       );
-      console.log("updated:", updated);
       
       setChargerWithAddress(updated);
     };
