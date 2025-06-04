@@ -6,9 +6,9 @@ A full-stack web application to manage electric vehicle (EV) charging stations. 
 
 ## 🚀 Live Links
 
-- 🔗 Frontend (Vercel): [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
-- 🔗 Backend (Render): [https://your-backend-url.onrender.com](https://your-backend-url.onrender.com)
-- 📄 API Docs (Postman collection): `postman_collection.json` (in repo)
+- 🔗 Frontend (Vercel): [https://ev-charging-stations-gules.vercel.app](https://ev-charging-stations-gules.vercel.app)
+- 🔗 Backend (Render): [https://ev-charging-station-c828.onrender.com/](https://ev-charging-station-c828.onrender.com/)
+- 📄 API Docs (Postman collection): `EV Charging App.postman_collection.json` (in repo)
 
 ---
 
